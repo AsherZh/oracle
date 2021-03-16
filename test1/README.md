@@ -17,11 +17,9 @@
 
 （1）两个不同的查询。
 
-![image-20210315163010990](C:\Users\16508\AppData\Roaming\Typora\typora-user-images\image-20210315163010990.png)
+![image-20210315163010990](README.assets/image-20210315163010990.png)第一种方法查询时间为1.92s。首先通过where选择对应的行，并且进行了筛选，然后通过group by组合筛选结果。
 
-第一种方法查询时间为1.92s。首先通过where选择对应的行，并且进行了筛选，然后通过group by组合筛选结果。
-
-![image-20210315163110225](C:\Users\16508\AppData\Roaming\Typora\typora-user-images\image-20210315163110225.png)
+![image-20210315163110225](README.assets/image-20210315163110225.png)
 
 第二种方法查询 时间为0.068s.首先根据where选择对应的行，其次根据group by字句组合行，最后根据根据having字句筛选组为“IT”,"Sales"。
 
