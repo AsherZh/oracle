@@ -42,8 +42,13 @@ Oracle有一个开发者角色resource，可以创建表、过程、触发器等
 
   ​	hr连接pdborcl，查询视图
 
+  #####  查看数据库的使用情况:
+
+  <img src="README.assets/image-20210322142817109.png" alt="image-20210322142817109" style="zoom:67%;" />
+
+  - autoextensible是显示表空间中的数据文件是否自动增加。
+  - MAX_MB是指数据文件的最大容量。
   
-
-  sqldeveloper授权对象的操作界面：
-
+  ##### sqldeveloper授权对象的操作界面：
+  
   <img src="README.assets/image-20210322112201958.png" alt="image-20210322112201958" style="zoom:67%;" />
